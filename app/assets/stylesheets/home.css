@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.foo {
+    height: 512px;
+    background-color: #81b6e1;
+    padding: 32px;
+}
+
+.container {
+    margin: auto;
+    width: 972px;
+}
+
+.menu {
+    width: 972px;
+    height: 42px;
+    margin: auto;
+}
+
+.avss {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.entrar {
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.1));
+    background: #117BDD;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    /*width: 69px;
+    height: 40px;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border-style: none;
+
+    /* text light */
+
+    color: #FFFFFF;
+}
+
+.avss-section {
+    background-color: #ebf3f5;
+    padding: 40px;
+}
+
+.avss-section__title {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    text-align: center;
+}
+
+.avss-footer {
+    background-color: #272A23;
+    height: 120px;
+}
+
+.avss-footer__title {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #C7CACF;
+}
+
+.avaliar {
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.1));
+    background: #86D900;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    /*width: 69px;
+    height: 40px;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border-style: none;
+
+    /* text light */
+
+    color: #FFFFFF;
+}
+
+.avss-menu {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
