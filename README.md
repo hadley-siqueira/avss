@@ -1,24 +1,20 @@
-# README
+# AVSS
+Projeto e-OSCE, desenvolvido em parceria entre o IFRN e a FACISA
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# PREREQUISITES
+To run this application, please check de following prerequisites:
+- PostgreSQL Server 13+
+- Ruby 3.0.0
+- NPM 8.1.0
+- YARN 1.22.10
 
-Things you may want to cover:
+# INSTALATION STEPS 
+After <git clone> command, follow those steps:
+- cd ruby-osce - Enter de project folder
+- bundle install - Install Bundle dependencies
+- rails db:migrate - Run migrations
+- rails db:seed - Run seeds
+- npm install - Install NPM dependencies
+- yarn install - Install YARN dependencies
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Great! Now, your ruby-osce application is ready to run <rails s>
