@@ -1,12 +1,21 @@
 <div class="foo">
   <div class="container">
     <div class="menu">
-      <span class="avss">AVSS</span> 
-      <span class="avss-menu">Início</span>
-       Funcionalidades Sobre nós Cadastre-se
-       <button class="btn">Entrar</button>
-       <button class="btn">Retomar edição</button>
-       <button class="btn btn--green">Avaliação</button>
+      <div>
+        <span class="avss">AVSS</span> 
+      </div>
+
+      <div>
+        <span class="avss-menu ml-16">Início</span>
+        <span class="avss-menu ml-16">Funcionalidades</span>
+        <span class="avss-menu ml-16">Sobre nós</span>
+        <span class="avss-menu ml-16">Cadastre-se</span>
+      </div>
+
+      <div class="menu__buttons">
+        <button class="btn ml-30">Entrar</button>
+        <button class="btn btn--green ml-30">Avaliação</button>
+      </div>
     </div>
     <%= render "logo" %>
   </div>
@@ -14,7 +23,17 @@
 
 <div class="avss-section">
   <h1 class="avss-section__title">Funcionalidades</h1>
-  <%= render_action_card('add', 'title', 'body') %>
+  <%= link_to '#', class: 'action-card__link' do %>
+    <%= render_action_card('add', 'title', 'body') %>
+  <% end %>
+
+  <%= link_to 'https://www.google.com.br', class: 'action-card__link' do %>
+    <%= render_action_card('list_alt', 'title', 'body') %>
+  <% end %>
+</div>
+
+<div class="avss-section">
+  <h1 class="avss-section__title">Sobre nós</h1>
 </div>
 
 <div class="avss-footer">

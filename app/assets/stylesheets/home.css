@@ -55,6 +55,20 @@ body {
     width: 972px;
     height: 42px;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__buttons {
+    display: flex;
+}
+
+.ml-30 {
+    margin-left: 30px;
+}
+
+.ml-16 {
+    margin-left: 16px;
 }
 
 .avss {
