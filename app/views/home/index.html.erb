@@ -23,17 +23,40 @@
 
 <div class="avss-section">
   <h1 class="avss-section__title">Funcionalidades</h1>
-  <%= link_to '#', class: 'action-card__link' do %>
-    <%= render_action_card('add', 'title', 'body') %>
-  <% end %>
+  <div style="display: flex; margin: auto;"> 
+    <div>
+      <%= link_to '#', class: 'action-card__link' do %>
+        <%= render_action_card('add', 'Cadastre situações problema', 'Cadastre novos circuitos para serem aplicados a partir do zero e/ou reaproveitando as estações previamente criadas') %>
+      <% end %>
 
-  <%= link_to 'https://www.google.com.br', class: 'action-card__link' do %>
-    <%= render_action_card('list_alt', 'title', 'body') %>
-  <% end %>
+      <%= link_to 'https://www.google.com.br', class: 'action-card__link' do %>
+        <%= render_action_card('list_alt', 'Consulte suas situações problema', 'Acesse sua lista de OSCEs para gerenciá-los ou aplicá-los') %>
+      <% end %>
+    </div>
+
+    <div>
+      <%= link_to '#', class: 'action-card__link' do %>
+        <%= render_action_card('add', 'title', 'body') %>
+      <% end %>
+
+      <%= link_to 'https://www.google.com.br', class: 'action-card__link' do %>
+        <%= render_action_card('list_alt', 'title', 'body') %>
+      <% end %>
+    </div>
+  </div>
 </div>
 
 <div class="avss-section">
   <h1 class="avss-section__title">Sobre nós</h1>
+  <div style="display: flex; margin: auto;"> 
+      <%= link_to '#', class: 'action-card__link' do %>
+        <%= render_action_card('add', 'title', 'body') %>
+      <% end %>
+
+      <%= link_to 'https://www.google.com.br', class: 'action-card__link' do %>
+        <%= render_action_card('list_alt', 'title', 'body') %>
+      <% end %>
+  </div>
 </div>
 
 <div class="avss-footer">
