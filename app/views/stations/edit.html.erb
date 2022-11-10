@@ -1,0 +1,25 @@
+<h1>Editing station</h1>
+
+<%= render "form", station: @station %>
+
+<br>
+
+<div>
+  <%= link_to "Show this station", @station %> |
+  <%= link_to "Back to stations", stations_path %>
+</div>
+
+<%= turbo_frame_tag "edit-station-title", src: foobar_path, loading: :lazy do %>
+  carregando...
+<% end %>
+
+<div class="avss-section">
+  <h1 class="avss-section__title"><%= @station.name %></h1>
+
+  <div class="avss">
+    <h1>Contextualização</h1>
+    <p>Descreva um contexto para que o aluno se situe para realização da Estação. 
+       Texto que será apresentado aos alunos no ato de selecionar a Estação!</p>
+  </div>
+</div>
+

@@ -170,3 +170,14 @@ body {
     line-height: 24px;
     color: #000000;
 }
+
+.avss-field {
+    border: none;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+}
