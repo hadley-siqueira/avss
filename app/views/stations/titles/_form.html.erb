@@ -1,4 +1,4 @@
-<%= form_with(model: @station, url: foobar_path) do |form| %>
+<%= form_with(model: @station, url: station_title_path(@station)) do |form| %>
   <div>
     <%= form.label :name, style: "display: block" %>
     <%= form.text_field :name, class: 'avss-field' %>

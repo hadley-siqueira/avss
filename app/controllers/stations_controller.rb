@@ -41,6 +41,7 @@ class StationsController < ApplicationController
       if @station.update(station_params)
         format.html { redirect_to station_url(@station), notice: "Station was successfully updated." }
         format.json { render :show, status: :ok, location: @station }
+        format.turbo_stream
       else
         format.html { render :edit, status: :unprocessable_entity }
         format.json { render json: @station.errors, status: :unprocessable_entity }

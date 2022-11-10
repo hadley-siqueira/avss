@@ -1,4 +1,4 @@
-class Stations::TitleController < ApplicationController
+class Stations::TitlesController < ApplicationController
   before_action :set_station, only: %i[ show edit update destroy ]
 
   # GET /stations or /stations.json
@@ -62,7 +62,7 @@ class Stations::TitleController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_station
-      @station = Station.find(params[:id])
+      @station = Station.find(params[:station_id])
     end
 
     # Only allow a list of trusted parameters through.

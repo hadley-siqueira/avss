@@ -9,8 +9,8 @@
   <%= link_to "Back to stations", stations_path %>
 </div>
 
-<%= turbo_frame_tag "edit-station-title", src: foobar_path, loading: :lazy do %>
-  carregando...
+<%= turbo_frame_tag "edit-station-title" do %>
+  <%= render "stations/titles/form" %>
 <% end %>
 
 <div class="avss-section">
