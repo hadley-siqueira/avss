@@ -1,0 +1,134 @@
+.avss-big-card {
+    width: 972px;
+    min-height: 128px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    margin: 24px;
+}
+
+.avss-big-card__icon {
+    width: 96px;
+    height: 96px;
+    margin: 16px;
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 96px;
+    color: #000000;
+}
+
+.avss-big-card__title {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.avss-big-card__body {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #474A4F;
+}
+
+/* Small card */
+.avss-small-card {
+    box-sizing: border-box;
+    width: 468px;
+    height: 128px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    display: flex;
+    transition: width 0.5s;
+}
+
+.avss-small-card__title {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 0;
+}
+
+.avss-small-card__description {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #474A4F;
+}
+
+.avss-small-card__icon {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 96px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.avss-small-card__timerbody {
+    display: flex;
+}
+
+.avss-small-card__timerbody__before {
+    width: 68px;
+    height: 63px;
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    background: #EB544F;
+}
+
+.avss-small-card__timerbody__after {
+    width: 68px;
+    height: 63px;
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    background: #117BDD;
+}
+
+.fb {
+    border: none;
+    text-align: center;
+    width: 204px;
+    height: 63px;
+
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    /*display: flex;
+    align-items: center;
+    text-align: center;*/
+
+    color: #000000;
+}
